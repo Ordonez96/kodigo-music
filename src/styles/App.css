@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(194, 189, 183);
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar h1 {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .home, .music, .contact {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4caf50;
+  }
+  
+  @media (max-width: 600px) {
+    .navbar ul {
+      flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+.home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+.ranking {
+    margin: 20px 0;
+  }
+  
+.ranking h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+.ranking ol {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+.playlists {
+    margin: 40px 0;
+  }
+  
+.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+.playlist-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+.playlist-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+.playlist-item p {
+    margin: 0;
+  }
+  
