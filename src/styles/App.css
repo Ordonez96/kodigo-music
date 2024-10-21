@@ -68,3 +68,12 @@ body {
     }
   }
   
+  footer {
+    background-color: #282c34;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

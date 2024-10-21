@@ -33,7 +33,11 @@ const ContactForm = () => {
 
       <button type="submit">Send Message</button>
     </form>
+
   );
+  <footer>
+  <p>&copy; 2023 Your Company. All rights reserved.</p>
+</footer>
 };
 
 export default ContactForm;
