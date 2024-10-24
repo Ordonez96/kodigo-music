@@ -35,9 +35,7 @@ const ContactForm = () => {
     </form>
 
   );
-  <footer>
-  <p>&copy; 2023 Your Company. All rights reserved.</p>
-</footer>
+
 };
 
 export default ContactForm;
